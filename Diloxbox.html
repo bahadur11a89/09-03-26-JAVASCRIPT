@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello, World!</h1>
+
+
+    <script>
+
+
+// The Alert Plugin Classes
+// Class	Description	Example
+// .alert	Creates an alert message box
+// .alert - danger =	Red alert.Indicates a dangerous or potentially negative action
+// .alert - dismissible	Indicates a closable alert box.Together with the.close class, this class is used to close the alert(adds extra padding)
+// .alert - info	Light - blue alert.Indicates a neutral informative change or action
+// .alert - link	Used on links inside alerts to provide matching colored links
+// .alert - success	Green alert.Indicates a successful or positive action
+// .alert - warning	Yellow alert.Indicates caution should be taken with this action
+// .close	Styles the close button for the alert message(floats right with a specified font - size, color, etc.)
+
+
+
+
+        let a = 9;
+        let b = 3;
+        let sum = a + b;
+        console.log("The sum of " + a + " and " + b + " is: " + sum);
+
+        // document.write("The sum of " + a + " and " + b + " is: " + sum);
+        // document.writeln(" <br/>The sum of " + a + " and " + b + " is: " + sum);
+
+        alert("The sum of " + a + " and " + b + " is: " + sum);
+        a = confirm("Do you want to see the sum of " + a + " and " + b + "?");
+        if (a) {
+            alert("The sum of " + a + " and " + b + " is: " + sum);
+        }
+
+        a = prompt("Please enter a number:");
+        b = prompt("Please enter another number:");
+        sum = Number(a) + Number(b);
+        alert("The sum of " + a + " and " + b + " is: " + sum);
+        document.write("The sum of " + a + " and " + b + " is: " + sum);
+
+    </script>
+</body>
+
+</html>
