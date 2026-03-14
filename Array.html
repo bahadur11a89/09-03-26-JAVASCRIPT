@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let arr = [1, 2, 3, 4, 5];
+        // let arr2 = [6, 7, 8, 9, 10];
+        // arr = arr.concat(arr2);
+        // document.writeln(arr);
+
+
+
+        // let arr = [1, 2, 3, 4, 5];
+        // let arr2 = [6, 7, 8, 9, 10];
+
+        // console.log(arr2[0]);
+        // console.log(arr.length);
+
+        // let arr2 = [6, 7, 8, 9, 10];
+        // arr2.push(5);
+        // arr2pop();
+        // arr2.unshift(4);
+        // arr2.shift();
+        // console.log(arr2);
+
+        // let arr= [1,3];
+        // let arr1 = [2,4];
+        // arr = arr.concat(arr1);
+        // console.log(...arr,...arr1);  ...spread operator 
+        // let arr2 = arr.slice(0, 3);
+        // console.log(arr2);  
+
+
+        // let arr = [1, 2, 3, 4, 5];
+
+        // console.log(arr.sort((a, b) => a - b)); // Ascending order
+        // console.log(arr.sort((a, b) => b - a)); // Descending order
+
+        // console.log(arr.reverse()); // Reverse the array    
+
+
+        // let arr = [12, 34, 56, 78, 90];
+        // let arr1 = ["raj", "ram", "ravi", "rajesh", "ramesh"];
+
+        // console.log(arr.includes(34)); // true
+        // console.log(arr.includes(100)); // false    
+
+
+        // let arr = [1, 2, 3, 4, 5];
+        // let arr2 = [6, 7, 8, 9, 10];
+
+        // // filter
+        // let result1 = arr.filter(t => t < 4);
+
+        // // map
+        // let result2 = arr2.map(t => t * 2);
+
+        // // find
+        // let result3 = arr.find(t => t > 3);
+
+        // // every
+        // let result4 = arr2.every(t => t > 0);
+
+        // // some
+        // let result5 = arr2.some(t => t > 3);
+
+        // // join
+        // let result6 = arr.join("-");
+
+        // console.log("filter:", result1);
+        // console.log("map:", result2);
+        // console.log("find:", result3);
+        // console.log("every:", result4);
+        // console.log("some:", result5);
+        // console.log("join:", result6);
+
+        let a = [1, 2, 3, 4, 5];
+
+        a.splice(2, 0, 6, 7); // Insert 6 and 7 at index 2 without removing any elements
+        a.splice(4, 1); // Remove 1 element at index 4
+        a.splice(1, 2, 8, 9); // Replace 2 elements at index 1 with 8 and 9
+        let a1 = a.slice(1, 4); // Create a new array with elements from index 1 to 3
+        console.log(a); // Output: [1, 8, 9, 6, 7]
+        console.log(a1); // Output: [8, 9, 6]
+
+
+        
+    </script>
+</body>
+
+</html>
